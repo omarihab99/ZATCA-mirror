@@ -1,0 +1,146 @@
+.mirror-empty {
+  padding: 1rem;
+  text-align: center;
+}
+
+.mirror-note {
+  margin: 0 0 1rem;
+  opacity: 0.8;
+}
+
+.mirror-hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.mirror-hero-slide {
+  display: none;
+  position: relative;
+}
+
+.mirror-hero-slide.is-active {
+  display: block;
+}
+
+.mirror-hero-slide img {
+  width: 100%;
+  display: block;
+}
+
+.mirror-hero-dots {
+  position: absolute;
+  inset-inline: 0;
+  bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  z-index: 2;
+}
+
+.mirror-dot {
+  width: 12px;
+  height: 12px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.mirror-dot.is-active {
+  background: #fff;
+}
+
+.slider_news,
+.slider_images,
+.slider_links {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.slider_news {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.slider_images,
+.slider_links {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.slider_statistics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.statistics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+}
+
+.multimedia_tabs .tab-pane {
+  display: none;
+}
+
+.multimedia_tabs .tab-pane.is-active {
+  display: block;
+}
+
+.mirror-vote-bar {
+  background: rgba(0, 0, 0, 0.08);
+  height: 8px;
+  margin: 0.35rem 0 0.9rem;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.mirror-vote-bar span {
+  display: block;
+  height: 100%;
+  background: #18b8c2;
+}
+
+.mirror-static-badge {
+  cursor: default;
+}
+
+.remodal-wrapper {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  padding: 2rem 1rem;
+}
+
+.remodal-wrapper .remodal {
+  display: block;
+  max-width: 720px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+html.mirror-grey-theme,
+body.mirror-grey-theme {
+  filter: grayscale(1);
+}
+
+html.mirror-zoom {
+  font-size: 18px;
+}
+
+@media (max-width: 991px) {
+  .main_navbar .navbar-collapse {
+    display: none;
+  }
+
+  .main_navbar .navbar-collapse.is-open {
+    display: block;
+  }
+
+  .nav-item.dropdown .dropdown-menu {
+    display: none;
+  }
+
+  .nav-item.dropdown.is-open .dropdown-menu {
+    display: block;
+  }
+}

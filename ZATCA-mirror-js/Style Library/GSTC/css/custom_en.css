@@ -1,0 +1,460 @@
+﻿body {
+    direction: ltr;
+    text-align: left; 
+}
+.main_navbar .navbar-brand{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.header_top .search .search_field{
+    left: auto;
+    right: 0;
+    border-radius: 20px 0;
+}
+.header_top .search .search_field::before{
+    left: auto;
+    right: 17px;
+}
+.header_top .search .search_field input[type='search']{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.header_top .today_date{
+    margin-right: 25px;
+    margin-left: 0;
+}
+.header_top ul.font_lang  li a.disabled {
+    cursor: default;
+    color: rgba(30, 178, 187, 0.60)
+}
+.social_link{
+    left: auto;
+    right: 35px;
+}
+.wrapper_steps{
+	background: url(../images/bg_steps_en.png) no-repeat;
+    /*border-radius: 0 0 0 360px;
+    background-position: left;*/
+    background-size: 100% 100%;
+}
+.wrapper_lawsuit .title_steps{
+    left: -20px;
+    border-radius: 0 135px 0 0;
+    transform: skewX(20deg);
+}
+.wrapper_lawsuit .title_steps div {
+    transform: skewX(-20deg);
+}
+.head::before, .head::after{
+    transform: rotate(137deg);
+    border-radius: 0 5px;
+
+}
+.head, .head> span{
+    text-align: left !important;
+}
+.head::before{
+    right: -46px;
+    left: auto;
+}
+.head::after{
+    left: auto;
+    right: -24px;
+}
+.head_icon{
+    padding-left: 52px;
+    padding-right: 0;
+}
+.content_statistics .head_icon::before{
+    right: auto;
+    left: 0;
+}
+.head_v3{
+    padding-left: 50px;
+    padding-right: 0;
+}
+.head_v3::before{
+    left: 0;
+    right: auto;
+    border-radius: 0 20px;
+}
+.icon_head{
+    left: -30px;
+    right: auto;
+}
+.date::before{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.responsive-calendar .controls .btn.btn-next::after{
+    content: "\f0da";
+}
+.responsive-calendar .controls .btn.btn-prev::after{
+    content: "\f0d9";
+}
+.content_statistics .slider_statistics .slick-prev{
+    left: auto;
+    right: -80px;
+}
+.content_statistics .slider_statistics .slick-next{
+    right: auto;
+    left: -80px;
+}
+.bg{
+    left: 0;
+}
+.multimedia_tabs .nav-tabs .nav-link.active{
+    padding-left: 45px;
+    padding-right: 0;
+    font-size: 22px;
+}
+.multimedia_tabs .nav-tabs .nav-link.active::before{
+    left: 0;
+    right: auto;
+}
+.slick-prev{
+    right: 20px;
+    left: auto;
+}
+.slick-next{
+    left: 20px;
+    right: auto;
+}
+.multimedia_tabs .slick-prev{
+    right: -25px;
+    left: auto;
+}
+.multimedia_tabs .slick-next {
+    left: -25px;
+    right: auto;
+}
+.slick-prev:before{
+    content: '\f061';
+}
+.slick-next:before {
+    content: '\f060';
+}
+.detaisl_share::before{
+    left: 15px;
+    right: 0;
+}
+.col_vote::before{
+    right: 30px;
+    left: auto;
+}
+.content_poll .poll{
+    padding-left: 35px;
+    padding-right: 0;
+}
+.content_poll .checkmark{
+    left: 0;
+    right: auto;
+}
+.footer_poll a:first-of-type{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.slider_links .slick-next{
+    left: -20px;
+    right: auto;
+}
+.slider_links .slick-prev{
+    left: auto;
+    right: -20px;
+}
+.chat{
+    left: 50px;
+    right: auto;
+}
+.wrapper_white{
+    padding: 10px 80px 10px 25px;
+    border-radius: 0 0 120px 0;
+}
+.footer_links li:last-of-type a::after{
+    width: 3px;
+}
+.footer_links li:first-of-type a::after{
+    width: 0;
+}
+.aside_inner{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.head-icon::before{
+    margin-right: 10px;
+    margin-left: 0;
+}
+.last_modified p span::before{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.main_inner .footer_content .rating span{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.content_address .scrollbar-track-y{
+    right: 15px;
+    left: auto;
+}
+.content_address .close{
+    left: auto;
+    right: 10px;
+}
+.item_event .img_event .date{
+    right: auto;
+    left: 0;
+    border-radius: 0 20px;
+}
+.location::before{
+    margin-right: 10px;
+    margin-left: auto;
+}
+.accordion .card .card-header .btn-link{
+    text-align: left;
+}
+.accordion .card .card-header .btn-link::after{
+    right: 20px;
+    left: auto;
+}
+.details_map{
+    text-align: left;
+}
+.details_map span{
+    text-align: left;
+}
+
+.item_address .pin:after{
+    left: 0;
+    right: auto;
+}
+
+.item_address.address_1 .pin:after{	content: "Riyadh";}
+.item_address.address_2 .pin:after{	content: "Dammam";}
+.item_address.address_3 .pin:after{	content: "Jeddah";}
+.item_address.Hall_1 .pin:after{	content: "Hail";}
+.item_address.Hall_2 .pin:after{	content: "Najran";}
+.item_address.Hall_3 .pin:after{	content: "Tabouk";}
+.item_address.Hall_4 .pin:after{	content: "Jouf";}
+.item_address.Hall_5 .pin:after{	content: "Madinah";}
+.item_address.Hall_6 .pin:after{	content: "Qassem";}
+.item_address.Hall_7 .pin:after{	content: "Arar";}
+.item_address.Hall_8 .pin:after{	content: "Abha";}
+.item_address.Hall_9 .pin:after{	content: "Yanbu";}
+.item_address.Hall_10 .pin:after{	content: "Jazan";}
+.item_address.Hall_11 .pin:after{	content: "Baha";}
+.item_address.Hall_12 .pin:after{	content: "Hafar Al-Batin";}
+.item_address.Hall_13 .pin:after{	content: "Taif";}
+.item_address.Hall_14 .pin:after{	content: "Ahsa";}
+
+.item_address.Hall_15 .pin:after{	content: "AlBatha land port";}
+.item_address.Hall_16 .pin:after{	content: "Alhaditha land port";}
+.item_address.Hall_17 .pin:after{	content: "Theba land port";}
+.item_address.Hall_18 .pin:after{	content: "Al Durra land port";}
+.item_address.Hall_19 .pin:after{	content: "Salwa land port";}
+.item_address.Hall_20 .pin:after{	content: "Alwadeah land port";}
+.item_address.Hall_21 .pin:after{	content: "Alkhafji land port";}
+
+.slick-slider{
+	direction:rtl;
+}
+ul.slick-dots{
+	direction:ltr;flex-direction: row;
+}
+
+.main_navbar .navbar-nav .nav-item a.nav-link{
+	font-size:13px !important;
+}
+.dropdown-item{
+	text-align:left;font-size:13px;
+}
+.sidebar_slider .photo_slider {
+    direction: rtl;
+}
+
+/* site map */
+
+.toc-layout-main>.dfwp-list {
+    flex-flow: row column;
+    padding: 0;
+    position: relative;
+    margin-bottom: 1em;
+    display: -webkit-box;
+    display: flex;
+}
+
+.toc-layout-main>.dfwp-list>.level-section {
+    margin-bottom: 10px;
+}
+
+.toc-layout-main>.dfwp-list,
+.toc-layout-main>.dfwp-list a,
+.toc-layout-main>.dfwp-listt>ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column
+}
+
+.toc-layout-main>.dfwp-list a:hover::before {
+    right: 0
+}
+
+.toc-layout-main>.dfwp-list ul {
+    position: relative;
+}
+
+.toc-layout-main>.dfwp-list>ul {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    align-items: flex-start
+}
+
+.toc-layout-main>.dfwp-list>ul>li {
+    -webkit-box-flex: 1;
+    flex: 1 1 auto
+}
+
+.toc-layout-main>.dfwp-list li {
+    margin-left: 2em;
+    list-style: none
+}
+
+.toc-layout-main>.dfwp-list li ul li:after,
+.toc-layout-main>.dfwp-list li ul li:before {
+    display: inline-block;
+    width: 2.5em;
+    border: 2px solid #1DBDC6;
+    border-left: none;
+    border-top: none;
+    content: "";
+    transform: scale(-1, 1);
+}
+
+.toc-layout-main>.dfwp-list li ul li:last-child:before {
+    border-color: transparent;
+}
+
+.toc-layout-main>.dfwp-list li:after {
+    position: absolute;
+    left: 2.5em;
+    top: 0;
+    width: 2px;
+    height: calc(100% - 33px);
+}
+
+
+.toc-layout-main>.dfwp-list li a {
+    position: relative;
+    z-index: 10;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    padding: .5em 1em;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    border-bottom-width: 3px;
+    background: #f9f9f9;
+    font-weight: 700;
+    text-decoration: none;
+    color: #595959;
+    /* margin-bottom: .2em; */
+    /* margin-right: .2em; */
+    font-size: 15px !important;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.toc-layout-main>.dfwp-list li a::before {
+    content: '';
+    height: 100%;
+    right: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #1DBDC6;
+    transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+}
+
+.toc-layout-main>.dfwp-list li a:hover {
+    color: #fff;
+}
+
+.toc-layout-main>.dfwp-list>ul>li>a {
+    background: #f2e8dd;
+    border-color: #e4cfb8
+}
+
+.toc-layout-main>.dfwp-list .level-header {
+    padding: 0;
+    display: inline-block;
+}
+
+.toc-layout-main>.dfwp-list .level-section>ul>li {
+    padding-bottom: 15px;
+    margin: 0 2.5em;
+}
+
+.toc-layout-main>.dfwp-list .level-section>ul>li:first-child {
+    padding-top: 15px;
+}
+/* site map */
+.survey_Answers input[type="radio"], .survey_Answers input[type="checkbox"] {
+    margin-right: 10px;
+    margin-left:0;
+    margin-bottom: 10px;
+}
+.s4-breadcrumb-arrowcont:after {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    content: '\f054';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    color: #0C5150;
+}
+.wrapper_tabs .nav-pills .nav-link{
+	font-size: 13px;
+}
+.form-group select.form-control {
+    background: url(../images/br_down.png) no-repeat 95% #F1F1F0;
+    -webkit-appearance: none;
+}
+.content_address .lsit_sites{
+    direction: ltr;height: 117px;
+}
+
+.availableseats::before,.registrationcosts::before{
+    margin-left: 0;margin-right: 10px;
+}
+.calender_days .nextMonthCssClass a::before{
+    content: "\f0d9";
+}
+.calender_days .prevMonthCssClass a::before{
+    content: "\f0da";
+}
+.about_content ul li{
+    list-style-type: decimal;
+}
+#SearchOptions{
+    float: right;
+}
+#SearchOptions .ms-srch-sbLarge-link{
+    margin-left: 0;
+}
+td.ms-advsrchText-v1{
+    text-align: left !important;
+}
+
+.item_address.address_4 .pin {
+    left: 194px;
+    bottom: 160px;
+}
+.item_address.address_4 .pin:after{
+    content:"Riyadh";
+    width: 80px;
+    white-space: break-spaces;
+    /* text-align: center; */
+}

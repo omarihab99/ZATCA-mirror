@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="167.545" height="166.843" viewBox="0 0 167.545 166.843">
+  <g id="Group_653" data-name="Group 653" transform="translate(-47.455)">
+    <g id="Ellipse_2_copy_3" data-name="Ellipse 2 copy 3" transform="translate(47.455)" fill="#fff" stroke="#e8e8e8" stroke-width="5">
+      <ellipse cx="82.668" cy="82.445" rx="82.668" ry="82.445" stroke="none"/>
+      <ellipse cx="82.668" cy="82.445" rx="80.168" ry="79.945" fill="none"/>
+    </g>
+    <g id="Ellipse_2_copy_6" data-name="Ellipse 2 copy 6" transform="translate(165 116.843)" fill="#fff" stroke="#1eb2bb" stroke-width="5">
+      <circle cx="25" cy="25" r="25" stroke="none"/>
+      <circle cx="25" cy="25" r="22.5" fill="none"/>
+    </g>
+    <path id="Shape_640_copy_5" data-name="Shape 640 copy 5" d="M668.176,3025.668a10.243,10.243,0,0,0,7.505.927l-.562-1.8a8.6,8.6,0,0,1-6.013-.767,7.54,7.54,0,0,1-3.209-10.306,7.953,7.953,0,0,1,10.661-2.846l.931-1.644a9.942,9.942,0,0,0-13.326,3.557A9.426,9.426,0,0,0,668.176,3025.668Z" transform="translate(-487.148 -2874.874)" fill="#0d604a"/>
+    <path id="Shape_639_copy_8" data-name="Shape 639 copy 8" d="M671.917,3020.78c.448.254,1.876,1.148,3.2,2,2.575,1.662,3.526,1.923,3.328.916a7.3,7.3,0,0,0-2.647-2.08l-2.52-1.428,2.8-1.373c2.575-1.266,3.223-1.924,2.538-2.578-.338-.323-.294-.34-2.06.836a20.868,20.868,0,0,1-3.384,1.748C671.071,3019.633,670.758,3020.122,671.917,3020.78Zm3.488-.045c.226.361,19.532.464,19.9.107a.738.738,0,0,0,.018-.723c-.162-.4-8.174-.5-13.066-.473C676.478,3019.676,674.9,3019.926,675.4,3020.734Z" transform="translate(-489.823 -2877.483)" fill="#1eb2bb"/>
+  </g>
+</svg>
